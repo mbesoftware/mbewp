@@ -62,7 +62,20 @@
 
 
 ### STRING SESSION İÇİN KOD
+* Aşağıda Bulunan Kodları Sırasıyla Yapıştırıp Kurunuz. Bi Sonraki Koda Geçmeden Önceki Mevcut İşlemin Tamamlanmasını Bekleyin
 
 ```
-bash <(curl -L https://t.ly/sNO8)
+pkg install git
+
+pkg install nodejs
+
+git clone https://github.com/mbesoftware/MBE-WOK
+
+cd MBE-WOK
+
+npm install @adiwajshing/baileys
+
+npm install chalk
+
+node qr.js
 ```
