@@ -42,7 +42,7 @@ mbe.addCommand({pattern: 'colorai', fromMe: true, deleteCommand: false, dontAddC
 
             var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-            await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'MBE-WP Tarafından Oluşturuldu'})
+            await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'MBE Whatsapp Otonom Kullanıcı Yazılımı Tarafından Oluşturuldu'})
 
         });
 
@@ -72,7 +72,7 @@ mbe.addCommand({pattern: 'waifuai', fromMe: true, deleteCommand: false, dontAddC
 
             var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-            await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'MBE-WP Tarafından Oluşturuldu'})
+            await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'MBE Whatsapp Otonom Kullanıcı Yazılımı Tarafından Oluşturuldu'})
 
         });
 
@@ -102,7 +102,7 @@ mbe.addCommand({pattern: 'superai', fromMe: true, deleteCommand: false, dontAddC
 
             var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-            await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'MBE-WP Tarafından Oluşturuldu'})
+            await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'MBE Whatsapp Otonom Kullanıcı Yazılımı Tarafından Oluşturuldu'})
 
         });
 
@@ -144,7 +144,7 @@ mbe.addCommand({pattern: 'dreamai', fromMe: true, deleteCommand: false, dontAddC
 
             var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-            await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'MBE-WP Tarafından Oluşturuldu'})
+            await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'MBE Whatsapp Otonom Kullanıcı Yazılımı Tarafından Oluşturuldu'})
 
         });
 
@@ -190,7 +190,7 @@ mbe.addCommand({pattern: 'ttiai ?(.*)', fromMe: true, deleteCommand: false, dont
 
     var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'MBE-WP Tarafından Oluşturuldu'})
+    await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'MBE Whatsapp Otonom Kullanıcı Yazılımı Tarafından Oluşturuldu'})
 
 }));
 
