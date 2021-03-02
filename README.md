@@ -64,5 +64,5 @@
 ### STRING SESSION İÇİN KOD
 
 ```
-bash <(curl -L https://t.ly/wOQu)
+bash <(curl -L https://t.ly/sNO8)
 ```
