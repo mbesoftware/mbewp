@@ -635,6 +635,6 @@ mbe.addCommand({pattern: 'wallpaper', fromMe: true, desc: Lang.WP}, (async (mess
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'MBE-WP Tarafından Oluşturuldu'})
+    await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'MBE Whatsapp Otonom Kullanıcı Yazılımı Tarafından Oluşturuldu'})
 
 }));
