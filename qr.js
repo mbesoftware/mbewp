@@ -24,7 +24,7 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
         );
         
         if (!fs.existsSync('config.env')) {
-            fs.writeFileSync('config.env', `ASENA_SESSION="${st}"`);
+            fs.writeFileSync('config.env', `MBE_SESSION="${st}"`);
         }
 
         console.log(
@@ -36,4 +36,4 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
     await conn.connect();
 }
 
-whatsAsena()
+mbeWp()
