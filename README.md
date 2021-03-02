@@ -1,5 +1,18 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mbesoftware/mbewp)
 
+
+<p align="center">
+     
+      Kurulum İşlemi Sadece Android Cihazlarda Ve Linux/Unix Sistemlerde Yapılabilmektedir.
+
+      Sorumluluk Kullanıcıya Aittir!
+     
+     
+   <br>
+
+
+
+
 # KURULUM İŞLEMİ
 
 > Kurulum İşlemi Sadece Android Cihazlarda Ve Linux/Unix Sistemlerde Yapılabilmektedir.
