@@ -1,4 +1,4 @@
-FROM mbesoftware/mbewp:latest
+FROM fusuf/whatsasena:latest
 
 RUN git clone https://github.com/mbesoftware/mbewp /root/mbewp
 WORKDIR /root/mbewp/
