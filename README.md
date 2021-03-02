@@ -62,7 +62,9 @@
 
 
 ### STRING SESSION İÇİN KOD
-* Aşağıda Bulunan Kodları Sırasıyla Yapıştırıp Kurunuz. Bi Sonraki Koda Geçmeden Önceki Mevcut İşlemin Tamamlanmasını Bekleyin
+<p align="center">
+     * Aşağıda Bulunan Kodları Sırasıyla Yapıştırıp Kurunuz. Bi Sonraki Koda Geçmeden Önceki Mevcut İşlemin Tamamlanmasını Bekleyin
+     <br>
 
 ```
 pkg install git
