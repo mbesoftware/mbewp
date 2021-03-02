@@ -9,7 +9,7 @@ const Lang = Language.getString('system_stats');
 
 mbe.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
     if (Config.ALIVEMSG == 'default') {
-        await message.client.sendMessage(message.jid,'```MBE Whatsapp Otonom Kullanıcı Yazılımı Çalışıyor!```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Developer Site: https://github.com/mbesoftware' , MessageType.text);
+        await message.client.sendMessage(message.jid,'```MBE Whatsapp Otonom Kullanıcı Yazılımı Çalışıyor!```\n\n*Versiyon:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Developed by Burak Eyidoğan. Developer Site: https://github.com/mbesoftware' , MessageType.text);
     }
     else {
         await message.client.sendMessage(message.jid,Config.ALIVEMSG + '\n*Coded by Burak Eyidoğan*', MessageType.text);
