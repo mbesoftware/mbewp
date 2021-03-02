@@ -7,20 +7,19 @@ async function mbeWp () {
     const conn = new WAConnection();
     const Session = new StringSession();  
     conn.logger.level = 'warn';
-    conn.regenerateQRIntervalMs = 40000;
+    conn.regenerateQRIntervalMs = 30000;
     
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('Mbe')}${chalk.blue.bold('Wp')}
-${chalk.white.italic('MbeString Kodu Alıcı')}
-
-${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
+        console.log(`${chalk.green.bold('Mbe')}${chalk.blue.bold('Whatsapp')}
+${chalk.white.italic('MBE-WP String Kod Alıcı')}
+${chalk.blue.italic('ℹ️  Whatsapp a Bağlanılıyor...')}`);
     });
     
 
     conn.on('open', () => {
         var st = Session.createStringSession(conn.base64EncodedAuthInfo());
         console.log(
-            chalk.green.bold('Mbe String Kodunuz: '), Session.createStringSession(conn.base64EncodedAuthInfo())
+            chalk.green.bold('MBE-WOK String Kodunuz: '), Session.createStringSession(conn.base64EncodedAuthInfo())
         );
         
         if (!fs.existsSync('config.env')) {
