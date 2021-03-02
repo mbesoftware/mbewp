@@ -36,6 +36,8 @@
 > View Logs'a Tıklayın Ve MBE Whatsapp Otonom Kullanıcı Yazılımının Kurulduğuna Dair Log Mesajı Alana Kadar Bekleyin.
 
 
+
+
 * Linux/Unix Kurulum
 
 > Süper Kullanıcı Yetkisi İle Terminali Açın Ve Aşağıdaki Komutu Yapıştırıp Çalıştırın.
