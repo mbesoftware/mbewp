@@ -4,6 +4,8 @@
 
 > Kurulum İşlemi Sadece Android Cihazlarda Ve Linux/Unix Sistemlerde Yapılabilmektedir.
 
+> Sorumluluk Kullanıcıya Aittir!
+
 ### ANDROİD'de Kurulum
 
 > Play Store'dan "Termux" Uygulamasını İndirin. Ardından Aşağıdaki Komutu Yapıştırıp Çalıştırın. Oluşan Karekodun Ekran Görüntüsünü Alıp Başka Bir Cihaza Atın. İşlemi Yaptığınız Telefondan Whatsapp Uygulamasına Girin. Sağ Üstden Whatsapp Web'e Girin. Cihaz Ekleye Tıklayarak Karekod'u Okutun. Kare Kodu Okutunca Termux Uygulamasından Size Özel String Session Kodunu Kopyalayın (Kodun Başından Sonuna Kadar ='de Dahil). Kodunuzu Bir Kenara Kaydedin. Heroku.com'a Kayıt Olun. Ardından Üstde Bulunan "DEPLOY" Butonuna Tıklayın. Önünüze Gelen Sayfada;
