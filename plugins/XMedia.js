@@ -30,7 +30,7 @@ mbe.addCommand({pattern: 'x4mp4', fromMe: true, dontAddCommandList: true}, (asyn
         .format('mp4')
         .save('output.mp4')
         .on('end', async () => {
-            await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'MBE-WP Tarafından Oluşturuldu'});
+            await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'MBE Whatsapp Otonom Kullanıcı Yazılımı Tarafından Oluşturuldu'});
         });
     return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
 }));
