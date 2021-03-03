@@ -28,6 +28,8 @@
 > HEROKU_APP_NAME: Kısmına Uygulamanıza Verdiğiniz İsmi Yazın.
 
 > MBE_SESSION: Kısmına Termux Uygulamasından Aldığınız Kodu !EKSİKSİZ! Şekilde Yazın.
+
+> SUDO: Kısmına +90 Yazın.
  
 > Deploy App'e Tıklayın Sayfadan Ayrılmayın Ve Bekleyin.
 
@@ -53,6 +55,8 @@
 > HEROKU_APP_NAME: Kısmına Uygulamanıza Verdiğiniz İsmi Yazın.
  
 > MBE_SESSION: Kısmına Termux Uygulamasından Aldığınız Kodu !EKSİKSİZ! Şekilde Yazın.
+
+> SUDO: Kısmına +90 Yazın. 
 
 > Deploy App'e Tıklayın Sayfadan Ayrılmayın Ve Bekleyin.
 
