@@ -33,7 +33,7 @@ mbe.addCommand({pattern: 'mbe ?(.*)', fromMe: true, dontAddCommandList: true}, (
         );
         
         await message.client.sendMessage(
-            message.jid,'●▬▬▬ *MBE-WP* ▬▬▬●\n' + CMD_HELP, MessageType.text
+            message.jid,'●▬▬▬ *MBE Whatsapp Otonom Kullanıcı Yazılımı* ▬▬▬●\n' + CMD_HELP, MessageType.text
         );    
     } else {
         var CMD_HELP = '';
@@ -64,7 +64,7 @@ mbe.addCommand({pattern: 'mbe ?(.*)', fromMe: true, dontAddCommandList: true}, (
         );
         if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
         await message.client.sendMessage(
-            message.jid,'●▬▬▬ *MBE-WP* ▬▬▬●\n' + CMD_HELP, MessageType.text
+            message.jid,'●▬▬▬ *MBE Whatsapp Otonom Kullanıcı Yazılımı* ▬▬▬●\n' + CMD_HELP, MessageType.text
         );
     }
 }));
