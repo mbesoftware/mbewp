@@ -40,7 +40,7 @@
             "DEMOTED": "```, Yetkisi Düşürüldü!```",
             "MUTE_DESC": "Grubu sohbetini kapatır. Yalnızca adminler mesaj gönderebilir.",
             "MUTED": "```Grup sohbeti kapatıldı!```",
-            "UNMUTE_DESC": "Grubu sohbetini açar. Herkes mesaj gönderebilir.",
+            "UNMUTE_DESC": "Grup sohbetini açar. Herkes mesaj gönderebilir.",
             "UNMUTED": "```Grup sohbeti açıldı!```",
             "INVITE_DESC": "Grubun davet linkini getirir.",
             "INVITE": "```Davet linki:```" 
@@ -63,7 +63,7 @@
             "SECOND": "Saniye"
         },
         "evaluators": {
-            "TERM_DESC": "Sunucuda shellinde komut çalıştırmanıza imkan tanır.\n⌨️ Örnek: .term ls",
+            "TERM_DESC": "Sunucu shellinde komut çalıştırmanıza imkan tanır.\n⌨️ Örnek: .term ls",
             "GIVE_ME_CODE": "*Bana bir kod ver!*"
         },
         "nekobin": {
@@ -185,7 +185,7 @@
             "NEED_WORDS": "```Lütfen birkaç kelime yazın!```",
             "GETTING_VIDEOS": "```Videolar getiriyorum...```",
             "NOT_FOUND": "*Hiçbir şey bulamadım :(*",
-            "SEARCHING": "*🔎 Araştırılıyor...*",
+            "SEARCHING": "*🔎 Wikipedia Araştırılıyor...*",
             "WIKI_DESC": "Wikipedia'da arama yapar.",
             "IMG_DESC": "Google resimler fotoğraf çeker.",
             "IMG": "```{}``` adet ```{}``` fotoğrafı yükleniyor..."
@@ -215,8 +215,8 @@
             "AFTER_UPDATE": "*💬 MBE-WP Yeniden Başlatılıyor*"
         },
         "weather": {
-            "WEATHER_DESC": "Hava durumu getirir.\n⌨️ Örnek: .weather bakü",
-            "NEED_LOCATION": "*Lütfen bir konum yazın!*\n*Örnek:* ```.weather Bakü```",
+            "WEATHER_DESC": "Hava durumunu Gösterir.\n⌨️ Örnek: .weather Ankara",
+            "NEED_LOCATION": "*Lütfen bir konum yazın!*\n*Örnek:* ```.weather Ankara```",
             "LOCATION": "Konum",
             "TEMP": "Sıcaklık",
             "DESC": "Açıklama",
