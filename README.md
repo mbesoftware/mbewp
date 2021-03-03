@@ -67,7 +67,7 @@
 
 ### STRING SESSION İÇİN KOD
 <p align="center">
-     * Aşağıda Bulunan Kodları Sırasıyla Yapıştırıp Kurunuz. Bi Sonraki Koda Geçmeden Önceki Mevcut İşlemin Tamamlanmasını Bekleyin
+       Aşağıda Bulunan Kodları Sırasıyla Yapıştırıp Kurunuz. Bi Sonraki Koda Geçmeden Önceki Mevcut İşlemin Tamamlanmasını Bekleyin
      <br>
 
 ```
