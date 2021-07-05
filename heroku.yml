@@ -1,0 +1,5 @@
+build:
+  docker:
+      worker: /mbewp/Dockerfile
+run:
+   worker: npm start
